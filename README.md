@@ -1,15 +1,5 @@
 # eslint-config-formidable
 #### A composable set of ESLint configurations.
-<a title='npm version' href="https://npmjs.org/package/eslint-config-walmart">
-  <img src='http://img.shields.io/npm/v/eslint-config-walmart.svg' />
-</a>
-<a title='License' href="https://opensource.org/licenses/MIT">
-  <img src='https://img.shields.io/badge/license-MIT-blue.svg' />
-</a>
-<a title='Build Status' href='https://travis-ci.org/walmartlabs/eslint-config-walmart'>
-  <img src='https://api.travis-ci.org/walmartlabs/eslint-config-walmart.svg?branch=master' />
-</a>
-
 _______
 
 This project is based on [eslint-config-walmart](https://github.com/walmartlabs/eslint-config-walmart). It is `eslint@2+`-compatible and maintained by Formidable.
@@ -19,7 +9,7 @@ This project is based on [eslint-config-walmart](https://github.com/walmartlabs/
 Install this config package and ESLint:
 
 ```bash
-$ npm install --save-dev eslint eslint-config-formidable
+$ npm install --save-dev eslint@2.10.2 eslint-config-formidable
 ```
 
 ## Usage
