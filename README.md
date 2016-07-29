@@ -1,31 +1,25 @@
-<h1 align="center">eslint-config-walmart</h1>
+# eslint-config-formidable
+#### A composable set of ESLint configurations.
+<a title='npm version' href="https://npmjs.org/package/eslint-config-walmart">
+  <img src='http://img.shields.io/npm/v/eslint-config-walmart.svg' />
+</a>
+<a title='License' href="https://opensource.org/licenses/MIT">
+  <img src='https://img.shields.io/badge/license-MIT-blue.svg' />
+</a>
+<a title='Build Status' href='https://travis-ci.org/walmartlabs/eslint-config-walmart'>
+  <img src='https://api.travis-ci.org/walmartlabs/eslint-config-walmart.svg?branch=master' />
+</a>
 
-<p align="center">
-  <a title='npm version' href="https://npmjs.org/package/eslint-config-walmart">
-    <img src='http://img.shields.io/npm/v/eslint-config-walmart.svg' />
-  </a>
-  <a title='License' href="https://opensource.org/licenses/MIT">
-    <img src='https://img.shields.io/badge/license-MIT-blue.svg' />
-  </a>
-  <a title='Build Status' href='https://travis-ci.org/walmartlabs/eslint-config-walmart'>
-    <img src='https://api.travis-ci.org/walmartlabs/eslint-config-walmart.svg?branch=master' />
-  </a>
-</p>
+_______
 
-<h4 align="center">
-  A composable set of ESLint configurations.
-</h4>
-
-***
-
-This project is the maintained offshoot of [eslint-config-defaults](https://github.com/walmartlabs/eslint-config-defaults) with just the Walmart Labs-flavored rules included. It is `eslint@2+`-compatible and actively maintained (with love) by the friendly folks at Walmart Labs.
+This project is based on [eslint-config-walmart](https://github.com/walmartlabs/eslint-config-walmart). It is `eslint@2+`-compatible and maintained by Formidable.
 
 ## Installation
 
 Install this config package and ESLint:
 
 ```bash
-$ npm install --save-dev eslint eslint-config-walmart
+$ npm install --save-dev eslint eslint-config-formidable
 ```
 
 ## Usage
@@ -34,22 +28,22 @@ $ npm install --save-dev eslint eslint-config-walmart
 
 This package includes the following complete and ready to use configurations:
 
-- `walmart` - ES6 config
-- `walmart/configurations/off` - Disable all rules (ESLint's default at 1.0.0+)
-- `walmart/configurations/es5-browser` - ES5 + browser
-- `walmart/configurations/es5-node` - ES5 + node < 4.x
-- `walmart/configurations/es5-test` - ES5 + test
-- `walmart/configurations/es5` - ES5 config
-- `walmart/configurations/es6-browser` - ES6 + browser
-- `walmart/configurations/es6-node` - ES6 + node 4.x
-- `walmart/configurations/es6-react-test` - ES6 + react + test
-- `walmart/configurations/es6-react` - ES6 + react
-- `walmart/configurations/es6-test` - ES6 + test
-- `walmart/configurations/es6` - ES6 config
+- `formidable` - ES6 config
+- `formidable/configurations/off` - Disable all rules (ESLint's default at 1.0.0+)
+- `formidable/configurations/es5-browser` - ES5 + browser
+- `formidable/configurations/es5-node` - ES5 + node < 4.x
+- `formidable/configurations/es5-test` - ES5 + test
+- `formidable/configurations/es5` - ES5 config
+- `formidable/configurations/es6-browser` - ES6 + browser
+- `formidable/configurations/es6-node` - ES6 + node 4.x
+- `formidable/configurations/es6-react-test` - ES6 + react + test
+- `formidable/configurations/es6-react` - ES6 + react
+- `formidable/configurations/es6-test` - ES6 + test
+- `formidable/configurations/es6` - ES6 config
 
 ###### Dependencies
 
-- Any config (`walmart/configurations/<suffix>`) - [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames)
+- Any config (`formidable/configurations/<suffix>`) - [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames)
 - Any React config (`<prefix>-react`) - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react), [babel-eslint](https://github.com/babel/babel-eslint)
 - Any ES-next config (`es6-<suffix>`) - [babel-eslint](https://github.com/babel/babel-eslint)
 
@@ -60,13 +54,13 @@ more details about how shareable configs work, see the
 ```yaml
 ---
 "extends":
-  - "walmart"
+  - "formidable"
 ```
 
 ```yaml
 ---
 "extends":
-  - "walmart/configurations/es6-browser"
+  - "formidable/configurations/es6-browser"
 ```
 
 **NOTE:** Extending multiple complete configs can cause unexpected results, if you need to do this you should consider a piecemeal config as explained below. See https://github.com/walmartlabs/eslint-config-defaults/issues/38 for details.
@@ -80,9 +74,9 @@ ESLint configuration is broken apart in `./rules` containing ESLint's rules and 
 ```yaml
 ---
 "extends":
-  - "walmart/rules/eslint/best-practices/on",
-  - "walmart/rules/eslint/es6/off"
-  - "walmart/rules/eslint/node/off"
+  - "formidable/rules/eslint/best-practices/on",
+  - "formidable/rules/eslint/es6/off"
+  - "formidable/rules/eslint/node/off"
 
 "env":
   "phantom": true
