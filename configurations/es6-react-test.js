@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = {
-  "extends": "walmart/configurations/es6-react",
+  "extends": "formidable/configurations/es6-react",
   "env": {
     "mocha": true,
     "phantomjs": true

@@ -2,8 +2,8 @@
 
 module.exports = {
   "extends": [
-    "walmart/configurations/es5",
-    "walmart/rules/eslint/es6/on"
+    "formidable/configurations/es5",
+    "formidable/rules/eslint/es6/on"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
