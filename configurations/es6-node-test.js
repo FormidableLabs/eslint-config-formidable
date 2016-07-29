@@ -2,7 +2,7 @@
 
 module.exports = {
   "extends": [
-    "walmart/configurations/es6-node"
+    "formidable/configurations/es6-node"
   ],
   "env": {
     "mocha": true,

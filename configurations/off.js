@@ -2,13 +2,13 @@
 
 module.exports = {
   "extends": [
-    "walmart/rules/eslint/best-practices/off",
-    "walmart/rules/eslint/errors/off",
-    "walmart/rules/eslint/es6/off",
-    "walmart/rules/eslint/node/off",
-    "walmart/rules/eslint/strict/off",
-    "walmart/rules/eslint/style/off",
-    "walmart/rules/eslint/variables/off"
+    "formidable/rules/eslint/best-practices/off",
+    "formidable/rules/eslint/errors/off",
+    "formidable/rules/eslint/es6/off",
+    "formidable/rules/eslint/node/off",
+    "formidable/rules/eslint/strict/off",
+    "formidable/rules/eslint/style/off",
+    "formidable/rules/eslint/variables/off"
   ],
   "parserOptions": {
     "ecmaVersion": 5,

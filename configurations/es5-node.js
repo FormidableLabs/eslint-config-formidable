@@ -2,8 +2,8 @@
 
 module.exports = {
   "extends": [
-    "walmart/configurations/es5",
-    "walmart/rules/eslint/node/on"
+    "formidable/configurations/es5",
+    "formidable/rules/eslint/node/on"
   ],
   "env": {
     "node": true
