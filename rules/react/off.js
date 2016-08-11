@@ -37,6 +37,8 @@ module.exports = {
     "react/prop-types": 0,
     // Prevent missing React when using JSX
     "react/react-in-jsx-scope": 0,
+    // Restrict file extensions that may be required
+    "react/require-extension": 0,
     // Enforce ES5 or ES6 class for returning value in render function
     "require-render-return": 0,
     // Prevent extra closing tags for components without children
@@ -45,6 +47,8 @@ module.exports = {
     "react/sort-comp": 0,
     // Enforce propTypes declarations alphabetical sorting
     "sort-prop-types": 0,
+    // Prevent missing parentheses around multilines JSX
+    "react/wrap-multilines": 0,
 
     // ========================================================================
     //                                JSX Specific Rules
@@ -89,8 +93,6 @@ module.exports = {
     // Prevent React to be incorrectly marked as unused
     "react/jsx-uses-react": 0,
     // Prevent variables used in JSX to be incorrectly marked as unused
-    "react/jsx-uses-vars": 0,
-    // Prevent missing parentheses around multilines JSX
-    "react/jsx-wrap-multilines": 0
+    "react/jsx-uses-vars": 0
   }
 };
