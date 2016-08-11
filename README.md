@@ -33,9 +33,14 @@ This package includes the following complete and ready to use configurations:
 
 ###### Dependencies
 
-- Any config (`formidable/configurations/<suffix>`) - [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames)
-- Any React config (`<prefix>-react`) - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react), [babel-eslint](https://github.com/babel/babel-eslint)
-- Any ES-next config (`es6-<suffix>`) - [babel-eslint](https://github.com/babel/babel-eslint)
+- Any config (`formidable/configurations/<suffix>`)
+  - [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames)
+  - [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
+- Any React config (`<prefix>-react`)
+  - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
+  - [babel-eslint](https://github.com/babel/babel-eslint)
+- Any ES-next config (`es6-<suffix>`)
+  - [babel-eslint](https://github.com/babel/babel-eslint)
 
 To consume and extend a config in ESLint just add the extends attribute to your `.eslintrc`. For
 more details about how shareable configs work, see the
@@ -81,6 +86,7 @@ Due to an issue with ESLint, config extension cannot be called from a globally i
 - [ESLint](https://github.com/eslint/eslint) 2.10.2
 - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) 5.1.1
 - [eslint-plugin-filenames](https://www.npmjs.com/package/eslint-plugin-filenames) 1.0.0
+- [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import) 1.12.0
 
 ## And A Special Thanks To
 
