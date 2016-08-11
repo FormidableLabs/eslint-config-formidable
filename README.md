@@ -31,12 +31,6 @@ This package includes the following complete and ready to use configurations:
 - `formidable/configurations/es6-test` - ES6 + test
 - `formidable/configurations/es6` - ES6 config
 
-###### Dependencies
-
-- Any config (`formidable/configurations/<suffix>`) - [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames)
-- Any React config (`<prefix>-react`) - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react), [babel-eslint](https://github.com/babel/babel-eslint)
-- Any ES-next config (`es6-<suffix>`) - [babel-eslint](https://github.com/babel/babel-eslint)
-
 To consume and extend a config in ESLint just add the extends attribute to your `.eslintrc`. For
 more details about how shareable configs work, see the
 [ESLint documentation](http://eslint.org/docs/developer-guide/shareable-configs).
