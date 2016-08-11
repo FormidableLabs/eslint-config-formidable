@@ -31,12 +31,6 @@ This package includes the following complete and ready to use configurations:
 - `formidable/configurations/es6-test` - ES6 + test
 - `formidable/configurations/es6` - ES6 config
 
-###### Dependencies
-
-- Any config (`formidable/configurations/<suffix>`) - [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames)
-- Any React config (`<prefix>-react`) - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react), [babel-eslint](https://github.com/babel/babel-eslint)
-- Any ES-next config (`es6-<suffix>`) - [babel-eslint](https://github.com/babel/babel-eslint)
-
 To consume and extend a config in ESLint just add the extends attribute to your `.eslintrc`. For
 more details about how shareable configs work, see the
 [ESLint documentation](http://eslint.org/docs/developer-guide/shareable-configs).
@@ -52,8 +46,6 @@ more details about how shareable configs work, see the
 "extends":
   - "formidable/configurations/es6-browser"
 ```
-
-**NOTE:** Extending multiple complete configs can cause unexpected results, if you need to do this you should consider a piecemeal config as explained below. See https://github.com/walmartlabs/eslint-config-defaults/issues/38 for details.
 
 ### Piecemeal Configurations
 
@@ -78,9 +70,10 @@ Due to an issue with ESLint, config extension cannot be called from a globally i
 
 ### This package tracks config in the following versions:
 
-- [ESLint](https://github.com/eslint/eslint) 2.10.2
-- [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) 5.1.1
-- [eslint-plugin-filenames](https://www.npmjs.com/package/eslint-plugin-filenames) 1.0.0
+- [ESLint](https://github.com/eslint/eslint) 2.13.0
+- [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) 6.0.0
+- [eslint-plugin-filenames](https://www.npmjs.com/package/eslint-plugin-filenames) 1.1.0
+- [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import) 1.12.0
 
 ## And A Special Thanks To
 
