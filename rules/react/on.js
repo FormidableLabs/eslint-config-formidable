@@ -24,13 +24,13 @@ module.exports = {
     // Prevent usage of isMounted
     "react/no-is-mounted": 2,
     // Prevent multiple component definition per file
-    "react/no-multi-comp": 0,
+    "react/no-multi-comp": 2,
     // Prevent usage of the return value of React.render
     "react/no-render-return-value": 2,
     // Prevent usage of setState
     "react/no-set-state": 0,
     // Prevent using string references in ref attribute.
-    "react/no-string-refs": 0,
+    "react/no-string-refs": 2,
     // Prevent usage of unknown DOM property
     "react/no-unknown-property": 2,
     // Enforce ES5 or ES6 class for React Components
@@ -50,9 +50,11 @@ module.exports = {
     // Prevent extra closing tags for components without children
     "react/self-closing-comp": 2,
     // Enforce component methods order
-    "react/sort-comp": 0,
+    "react/sort-comp": 2,
     // Enforce propTypes declarations alphabetical sorting
-    "react/sort-prop-types": 0,
+    "react/sort-prop-types": 2,
+    // Prevent missing parentheses around multilines JSX
+    "react/wrap-multilines": 2,
 
     // ========================================================================
     //                                JSX Specific Rules

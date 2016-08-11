@@ -37,7 +37,7 @@ module.exports = {
     // enforces spacing between keys and values in object literal properties
     "key-spacing": [2, { "beforeColon": false, "afterColon": true }],
     // enforce spacing before and after keywords
-    "keyword-spacing": [2, {"before": true, "after": true}],
+    "keyword-spacing": [2, { "before": true, "after": true }],
     // disallow mixed "LF" and "CRLF" as linebreaks
     "linebreak-style": [0, "unix"],
     // enforces empty lines around comments
@@ -45,7 +45,7 @@ module.exports = {
     // specify the maximum depth that blocks can be nested
     "max-depth": [2, 4],
     // specify the maximum length of a line in your program
-    "max-len": [2, 100, 2, {"ignoreUrls": true, "ignorePattern": "^\\s*var\\s.+=\\s*require\\s*\\("}],
+    "max-len": [2, 100, 2, { "ignoreUrls": true, "ignorePattern": "^\\s*var\\s.+=\\s*require\\s*\\(" }],
     // specify the maximum depth callbacks can be nested
     "max-nested-callbacks": [2, 3],
     // limits the number of parameters that can be used in the function declaration.
@@ -77,7 +77,7 @@ module.exports = {
     // disallow mixed spaces and tabs for indentation
     "no-mixed-spaces-and-tabs": 2,
     // disallow multiple empty lines
-    "no-multiple-empty-lines": [2, {"max": 2}],
+    "no-multiple-empty-lines": [2, { "max": 2 }],
     // disallow negated conditions
     "no-negated-condition": 0,
     // disallow nested ternary expressions
@@ -101,7 +101,7 @@ module.exports = {
     // disallow whitespace before properties
     "no-whitespace-before-property": 0,
     // require or disallow padding inside curly braces
-    "object-curly-spacing": [0, "never"],
+    "object-curly-spacing": ["error", "always"],
     // enforce placing object properties on separate lines
     "object-property-newline": 0,
     // allow just one var statement per function
@@ -123,7 +123,7 @@ module.exports = {
     // require or disallow use of semicolons instead of ASI
     "semi": 2,
     // enforce spacing before and after semicolons
-    "semi-spacing": [2, {"before": false, "after": true}],
+    "semi-spacing": [2, { "before": false, "after": true }],
     // enforce sorting import declarations within module
     "sort-imports": 0,
     // sort variables within the same declaration block
@@ -131,7 +131,7 @@ module.exports = {
     // require or disallow space before blocks
     "space-before-blocks": [2, "always"],
     // require or disallow space before function opening parenthesis
-    "space-before-function-paren": [2, {"anonymous": "always", "named": "never" }],
+    "space-before-function-paren": [2, { "anonymous": "always", "named": "never" }],
     // require or disallow spaces inside parentheses
     "space-in-parens": [2, "never"],
     // require spaces around operators
