@@ -9,8 +9,7 @@ module.exports = {
     "formidable/rules/eslint/strict/on",
     "formidable/rules/eslint/style/on",
     "formidable/rules/eslint/variables/on",
-    "formidable/rules/filenames/on",
-    "formidable/rules/import/on"
+    "formidable/rules/filenames/on"
   ],
   "parserOptions": {
     "ecmaVersion": 5,
