@@ -19,10 +19,14 @@ module.exports = {
     "react/no-did-update-set-state": 2,
     // Prevent direct mutation of this.state
     "react/no-direct-mutation-state": 2,
+    // Prevent usage of findDOMNode
+    "react/no-find-dom-node": 1,
     // Prevent usage of isMounted
     "react/no-is-mounted": 2,
     // Prevent multiple component definition per file
     "react/no-multi-comp": 2,
+    // Prevent usage of the return value of React.render
+    "react/no-render-return-value": 0,
     // Prevent usage of setState
     "react/no-set-state": 0,
     // Prevent using string references in ref attribute.
@@ -32,15 +36,17 @@ module.exports = {
     // Enforce ES5 or ES6 class for React Components
     "react/prefer-es6-class": 2,
     // Enforce stateless React Components to be written as a pure function
-    "prefer-stateless-function": 0,
+    "react/prefer-stateless-function": 0,
     // Prevent missing props validation in a React component definition
     "react/prop-types": 2,
     // Prevent missing React when using JSX
     "react/react-in-jsx-scope": 2,
     // Restrict file extensions that may be required
     "react/require-extension": 0,
+    // Enforce React components to have a shouldComponentUpdate method
+    "react/require-optimization": 0,
     // Enforce ES5 or ES6 class for returning value in render function
-    "require-render-return": 0,
+    "react/require-render-return": 0,
     // Prevent extra closing tags for components without children
     "react/self-closing-comp": 2,
     // Enforce component methods order
@@ -62,6 +68,8 @@ module.exports = {
     "react/jsx-curly-spacing": 0,
     // Enforce or disallow spaces around equal signs in JSX attributes (fixable)
     "react/jsx-equals-spacing": 0,
+    // Restrict file extensions that may contain JSX
+    "react/jsx-filename-extension": 0,
     // Enforce position of the first prop in JSX
     "react/jsx-first-prop-new-line": 0,
     // Enforce event handler naming conventions in JSX
@@ -76,6 +84,8 @@ module.exports = {
     "react/jsx-max-props-per-line": 0,
     // Prevent usage of .bind() and arrow functions in JSX props
     "react/jsx-no-bind": 0,
+    // Prevent comments from being inserted as text nodes
+    "react/jsx-no-comment-textnodes": 0,
     // Prevent duplicate props in JSX
     "react/jsx-no-duplicate-props": 0,
     // Prevent usage of unwrapped JSX strings
@@ -93,6 +103,8 @@ module.exports = {
     // Prevent React to be incorrectly marked as unused
     "react/jsx-uses-react": 2,
     // Prevent variables used in JSX to be incorrectly marked as unused
-    "react/jsx-uses-vars": 2
+    "react/jsx-uses-vars": 2,
+    // Prevent missing parentheses around multilines JSX
+    "react/jsx-wrap-multilines": 0
   }
 };
