@@ -1,6 +1,7 @@
 # eslint-config-formidable
+======================
 #### A composable set of ESLint configurations.
-_______
+[![Build Status](https://travis-ci.org/FormidableLabs/eslint-config-formidable.svg?branch=master)](https://travis-ci.org/FormidableLabs/eslint-config-formidable)
 
 This project is based on [eslint-config-walmart](https://github.com/walmartlabs/eslint-config-walmart). It is `eslint@2+`-compatible and maintained by Formidable.
 
