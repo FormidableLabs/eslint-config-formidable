@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-formidable",
   "description": "A set of default eslint configurations from formidable",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "authors": "eric.baer@formidable.com, ryan.roemer@formidable.com, kyle.cesmat@formidable.com",
   "homepage": "https://github.com/FormidableLabs/eslint-config-formidable",
   "bugs": {
@@ -12,7 +12,7 @@
   "dependencies": {},
   "devDependencies" : {
     "babel-eslint": "6.1.2",
-    "eslint": "^2.0.0",
+    "eslint": "^2.10.2",
     "eslint-plugin-filenames": "1.1.0",
     "eslint-plugin-import": "1.13.0",
     "eslint-plugin-react": "6.0.0"
