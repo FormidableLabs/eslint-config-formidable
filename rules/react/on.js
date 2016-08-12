@@ -20,13 +20,13 @@ module.exports = {
     // Prevent direct mutation of this.state
     "react/no-direct-mutation-state": 2,
     // Prevent usage of findDOMNode
-    "react/no-find-dom-node": 2,
+    "react/no-find-dom-node": 1,
     // Prevent usage of isMounted
     "react/no-is-mounted": 2,
     // Prevent multiple component definition per file
     "react/no-multi-comp": 2,
     // Prevent usage of the return value of React.render
-    "react/no-render-return-value": 2,
+    "react/no-render-return-value": 0,
     // Prevent usage of setState
     "react/no-set-state": 0,
     // Prevent using string references in ref attribute.
@@ -42,9 +42,9 @@ module.exports = {
     // Prevent missing React when using JSX
     "react/react-in-jsx-scope": 2,
     // Restrict file extensions that may be required
-    "react/require-extension": 2,
+    "react/require-extension": 0,
     // Enforce React components to have a shouldComponentUpdate method
-    "react/require-optimization": 2,
+    "react/require-optimization": 0,
     // Enforce ES5 or ES6 class for returning value in render function
     "react/require-render-return": 0,
     // Prevent extra closing tags for components without children
@@ -69,7 +69,7 @@ module.exports = {
     // Enforce or disallow spaces around equal signs in JSX attributes (fixable)
     "react/jsx-equals-spacing": 0,
     // Restrict file extensions that may contain JSX
-    "react/jsx-filename-extension": 2,
+    "react/jsx-filename-extension": 0,
     // Enforce position of the first prop in JSX
     "react/jsx-first-prop-new-line": 0,
     // Enforce event handler naming conventions in JSX
@@ -85,7 +85,7 @@ module.exports = {
     // Prevent usage of .bind() and arrow functions in JSX props
     "react/jsx-no-bind": 0,
     // Prevent comments from being inserted as text nodes
-    "react/jsx-no-comment-textnodes": 2,
+    "react/jsx-no-comment-textnodes": 0,
     // Prevent duplicate props in JSX
     "react/jsx-no-duplicate-props": 0,
     // Prevent usage of unwrapped JSX strings
@@ -105,6 +105,6 @@ module.exports = {
     // Prevent variables used in JSX to be incorrectly marked as unused
     "react/jsx-uses-vars": 2,
     // Prevent missing parentheses around multilines JSX
-    "react/jsx-wrap-multilines": 2
+    "react/jsx-wrap-multilines": 0
   }
 };
