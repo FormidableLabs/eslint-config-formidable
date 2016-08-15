@@ -10,7 +10,7 @@
   "repository": "git://github.com/FormidableLabs/eslint-config-formidable.git",
   "private": false,
   "dependencies": {},
-  "devDependencies" : {
+  "devDependencies": {
     "babel-eslint": "6.1.2",
     "eslint": "^2.10.2",
     "eslint-plugin-filenames": "1.1.0",
@@ -21,7 +21,7 @@
   "scripts": {
     "test": "eslint configurations rules"
   },
-  "engines":{
+  "engines": {
     "node": ">= 0.10.0"
   },
   "license": "MIT",

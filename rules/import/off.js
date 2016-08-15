@@ -46,6 +46,6 @@ module.exports = {
     //Enforce a newline after import statements
     "import/newline-after-import": 0,
     //Prefer a default export if module exports a single name
-    "import/prefer-default-export": 0,
+    "import/prefer-default-export": 0
   }
 };
