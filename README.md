@@ -1,6 +1,7 @@
 # eslint-config-formidable
+======================
 #### A composable set of ESLint configurations.
-_______
+[![Build Status](https://travis-ci.org/FormidableLabs/eslint-config-formidable.svg?branch=master)](https://travis-ci.org/FormidableLabs/eslint-config-formidable)
 
 This project is based on [eslint-config-walmart](https://github.com/walmartlabs/eslint-config-walmart). It is `eslint@2+`-compatible and maintained by Formidable.
 
@@ -84,7 +85,7 @@ Due to an issue with ESLint, config extension cannot be called from a globally i
 - [ESLint](https://github.com/eslint/eslint) 2.10.2
 - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) 6.0.0
 - [eslint-plugin-filenames](https://www.npmjs.com/package/eslint-plugin-filenames) 1.1.0
-- [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import) 1.12.0
+- [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import) 1.13.0
 
 ## And A Special Thanks To
 
