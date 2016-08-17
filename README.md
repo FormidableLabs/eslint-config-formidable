@@ -87,6 +87,10 @@ Due to an issue with ESLint, config extension cannot be called from a globally i
 - [eslint-plugin-filenames](https://www.npmjs.com/package/eslint-plugin-filenames) 1.1.0
 - [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import) 1.13.0
 
+## Contributing
+
+This project defines a huge number of very contentious config variables. In order to prevent issues/PRs from being eternal bikeshedding pits of doom we would like to ask that you *simply upvote or downvote a rule. If you need to explain something please use concrete and reproducible evidence or statistics.* Please try not to post assertions of preference, authority, aesthetic beauty (it's in the eye of the beholder), minimal key presses, cognitive load or any other subjective measures of code style.
+
 ## And A Special Thanks To
 
 * [Nicholas C. Zakas](https://github.com/nzakas) for all the amazing work on [ESLint](https://github.com/eslint/eslint)
