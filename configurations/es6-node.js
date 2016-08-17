@@ -3,7 +3,7 @@
 module.exports = {
   "extends": [
     "formidable/configurations/es6",
-    "formidable/configurations/rules/eslint/node/on"
+    "formidable/rules/eslint/node/on"
   ],
   "env": {
     "node": true
