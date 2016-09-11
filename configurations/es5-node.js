@@ -9,6 +9,6 @@ module.exports = {
     "node": true
   },
   "rules": {
-    "strict": [2, "global"]
+    "strict": ["error", "global"]
   }
 };

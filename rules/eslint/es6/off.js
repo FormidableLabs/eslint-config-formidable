@@ -3,58 +3,58 @@
 module.exports = {
   "rules": {
     // require braces in arrow function body
-    "arrow-body-style": 0,
+    "arrow-body-style": "off",
     // require parens in arrow function arguments
-    "arrow-parens": 0,
+    "arrow-parens": "off",
     // require space before/after arrow function's arrow
-    "arrow-spacing": 0,
+    "arrow-spacing": "off",
     // verify super() callings in constructors
-    "constructor-super": 0,
+    "constructor-super": "off",
     // enforce the spacing around the * in generator functions
-    "generator-star-spacing": 0,
+    "generator-star-spacing": "off",
     // disallow modifying variables of class declarations
-    "no-class-assign": 0,
+    "no-class-assign": "off",
     // disallow arrow functions where they could be confused with comparisons
-    "no-confusing-arrow": 0,
+    "no-confusing-arrow": "off",
     // disallow modifying variables that are declared using const
-    "no-const-assign": 0,
+    "no-const-assign": "off",
     // disallow duplicate name in class members
-    "no-dupe-class-members": 0,
+    "no-dupe-class-members": "off",
     // disallow duplicate module imports
-    "no-duplicate-imports": 0,
+    "no-duplicate-imports": "off",
     // disallow use of the new operator with the Symbol object
-    "no-new-symbol": 0,
+    "no-new-symbol": "off",
     // restrict usage of specified modules when loaded by import declaration
-    "no-restricted-imports": 0,
+    "no-restricted-imports": "off",
     // disallow to use this/super before super() calling in constructors.
-    "no-this-before-super": 0,
+    "no-this-before-super": "off",
     // disallow unnecessary computed property keys in object literals
-    "no-useless-computed-key": 0,
+    "no-useless-computed-key": "off",
     // disallow unnecessary constructor
-    "no-useless-constructor": 0,
+    "no-useless-constructor": "off",
     // require let or const instead of var
-    "no-var": 0,
+    "no-var": "off",
     // require method and property shorthand syntax for object literals
-    "object-shorthand": 0,
+    "object-shorthand": "off",
     // suggest using arrow functions as callbacks
-    "prefer-arrow-callback": 0,
+    "prefer-arrow-callback": "off",
     // suggest using of const declaration for variables that are never modified after declared
-    "prefer-const": 0,
+    "prefer-const": "off",
     // suggest using Reflect methods where applicable
-    "prefer-reflect": 0,
+    "prefer-reflect": "off",
     // suggest using the rest parameters instead of arguments
-    "prefer-rest-params": 0,
+    "prefer-rest-params": "off",
     // suggest using the spread operator instead of .apply()
-    "prefer-spread": 0,
+    "prefer-spread": "off",
     // suggest using template literals instead of strings concatenation
-    "prefer-template": 0,
+    "prefer-template": "off",
     // disallow generator functions that do not have yield
-    "require-yield": 0,
+    "require-yield": "off",
     // enforce sorted import declarations within modules
-    "sort-imports": 0,
+    "sort-imports": "off",
     // enforce spacing around embedded expressions of template strings
-    "template-curly-spacing": 0,
+    "template-curly-spacing": "off",
     // enforce spacing around the * in yield* expressions
-    "yield-star-spacing": 0
+    "yield-star-spacing": "off"
   }
 };

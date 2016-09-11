@@ -6,46 +6,46 @@ module.exports = {
   ],
   "rules": {
     // Ensure imports point to a file/module that can be resolved
-    "import/no-unresolved": 2,
+    "import/no-unresolved": "error",
     //Ensure named imports correspond to a named export in the remote file
-    "import/named": 0,
+    "import/named": "off",
     // Ensure a default export is present, given a default import
-    "import/default": 0,
+    "import/default": "off",
     //Ensure imported namespaces contain dereferenced properties as they are dereferenced
-    "import/namespace": 0,
+    "import/namespace": "off",
     //Restrict which files can be imported in a given folder
-    "import/no-restricted-paths": 0,
+    "import/no-restricted-paths": "off",
     // Report any invalid exports, i.e. re-export of the same name
-    "import/export": 2,
+    "import/export": "error",
     //Report use of exported name as identifier of default export
-    "import/no-named-as-default": 0,
+    "import/no-named-as-default": "off",
     //Report use of exported name as property of default export
-    "import/no-named-as-default-member": 0,
+    "import/no-named-as-default-member": "off",
     //Report imported names marked with @deprecated documentation tag
-    "import/no-deprecated": 0,
+    "import/no-deprecated": "off",
     // Forbid the use of extraneous packages
-    "import/no-extraneous-dependencies": 0,
+    "import/no-extraneous-dependencies": "off",
     // Forbid the use of mutable exports with var or let
-    "import/no-mutable-exports": 2,
+    "import/no-mutable-exports": "error",
     //Report CommonJS require calls and module.exports or exports.*
-    "import/no-commonjs": 0,
+    "import/no-commonjs": "off",
     //Report AMD require and define calls.
-    "import/no-amd": 0,
+    "import/no-amd": "off",
     //No Node.js builtin modules
-    "import/no-nodejs-modules": 0,
+    "import/no-nodejs-modules": "off",
     // Ensure all imports appear before other statements
-    "import/imports-first": 2,
+    "import/imports-first": "error",
     // Report repeated import of the same module in multiple places
-    "import/no-duplicates": 2,
+    "import/no-duplicates": "error",
     //Report namespace imports
-    "import/no-namespace": 0,
+    "import/no-namespace": "off",
     //Ensure consistent use of file extension within the import path
-    "import/extensions": 0,
+    "import/extensions": "off",
     //Enforce a convention in module import order
-    "import/order": 0,
+    "import/order": "off",
     //Enforce a newline after import statements
-    "import/newline-after-import": 0,
+    "import/newline-after-import": "off",
     //Prefer a default export if module exports a single name
-    "import/prefer-default-export": 0
+    "import/prefer-default-export": "off"
   }
 };
