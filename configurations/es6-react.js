@@ -15,7 +15,7 @@ module.exports = {
     "fetch": false
   },
   "rules": {
-    "no-extra-parens": 0,
-    "no-var": 2
+    "no-extra-parens": "off",
+    "no-var": "error"
   }
 };

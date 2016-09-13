@@ -17,16 +17,16 @@ module.exports = {
   "globals": {},
   "rules": {
     // verify super() callings in constructors
-    "constructor-super": 0,
+    "constructor-super": "off",
     // disallow modifying variables of class declarations
-    "no-class-assign": 0,
+    "no-class-assign": "off",
     // disallow modifying variables that are declared using const
-    "no-dupe-class-members": 0,
+    "no-dupe-class-members": "off",
     // disallow to use this/super before super() calling in constructors.
-    "no-this-before-super": 0,
+    "no-this-before-super": "off",
     // suggest using Reflect methods where applicable
-    "prefer-reflect": 0,
+    "prefer-reflect": "off",
     // require that all functions are run in strict mode
-    "strict": [2, "global"]
+    "strict": ["error", "global"]
   }
 };

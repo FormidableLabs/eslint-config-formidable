@@ -8,6 +8,6 @@ module.exports = {
     "mocha": true
   },
   "rules": {
-    "max-nested-callbacks": 0
+    "max-nested-callbacks": "off"
   }
 };

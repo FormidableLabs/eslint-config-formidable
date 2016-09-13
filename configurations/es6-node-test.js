@@ -13,7 +13,7 @@ module.exports = {
     "sandbox": true
   },
   "rules": {
-    "max-nested-callbacks": 0,
-    "no-unused-expressions": 0
+    "max-nested-callbacks": "off",
+    "no-unused-expressions": "off"
   }
 };
