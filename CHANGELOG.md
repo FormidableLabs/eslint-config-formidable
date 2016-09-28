@@ -1,3 +1,14 @@
+## 2.0.1 (2016-09-28)
+
+#### User Facing Changes
+
+* Enforce filenames on all files, even ESnext files with `export default`.
+  [#28](https://github.com/FormidableLabs/eslint-config-formidable/pull/28)
+
+## 2.0.0 (2016-09-28)
+
+_Bad release. Ignore._
+
 ## 1.0.1 (2016-08-17)
 
 #### User Facing Changes
