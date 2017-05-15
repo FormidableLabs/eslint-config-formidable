@@ -8,6 +8,8 @@ module.exports = {
     "array-callback-return": "off",
     // treat var statements as if they were block scoped
     "block-scoped-var": "off",
+    // enforce that class methods utilize this
+    "class-methods-use-this": "off",
     // specify the maximum cyclomatic complexity allowed in a program
     "complexity": ["error", 11],
     // require return statements to either always or never specify values
@@ -52,6 +54,8 @@ module.exports = {
     "no-fallthrough": "error",
     // disallow the use of leading or trailing decimal points in numeric literals
     "no-floating-decimal": "off",
+    // disallow assignments to native objects or read-only global variables
+    "no-global-assign": "off",
     // disallow the type conversions with shorter notations
     "no-implicit-coercion": "off",
     // disallow var and named functions in global scope
@@ -74,8 +78,6 @@ module.exports = {
     "no-multi-spaces": "error",
     // disallow use of multiline strings
     "no-multi-str": "error",
-    // disallow reassignments of native objects
-    "no-native-reassign": "error",
     // disallow use of new operator when not part of the assignment or comparison
     "no-new": "error",
     // disallow use of new operator for Function object
@@ -93,8 +95,12 @@ module.exports = {
     "no-proto": "error",
     // disallow declaring the same variable more then once
     "no-redeclare": "error",
+    // disallow certain properties on certain objects
+    "no-restricted-properties": "off",
     // disallow use of assignment in return statement
     "no-return-assign": "error",
+    // disallow unnecessary return await
+    "no-return-await": "off",
     // disallow use of `javascript:` urls.
     "no-script-url": "error",
     // disallow assignments where both sides are exactly the same
@@ -117,14 +123,20 @@ module.exports = {
     "no-useless-concat": "error",
     // disallow unnecessary usage of escape character
     "no-useless-escape": "off",
+    // disallow redundant return statements
+    "no-useless-return": "off",
     // disallow use of void operator
     "no-void": "off",
     // disallow usage of configurable warning terms in comments: e.g. todo
     "no-warning-comments": "off",
     // disallow use of the with statement
     "no-with": "error",
+    // require using Error objects as Promise rejection reasons
+    "prefer-promise-reject-errors": "off",
     // require use of the second argument for parseInt()
     "radix": "off",
+    // disallow async functions which have no await expression
+    "require-await": "off",
     // requires to declare all vars on top of their containing scope
     "vars-on-top": "off",
     // require immediate function invocation to be wrapped in parentheses

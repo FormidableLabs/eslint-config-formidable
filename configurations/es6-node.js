@@ -24,8 +24,6 @@ module.exports = {
     "no-dupe-class-members": "off",
     // disallow to use this/super before super() calling in constructors.
     "no-this-before-super": "off",
-    // suggest using Reflect methods where applicable
-    "prefer-reflect": "off",
     // require that all functions are run in strict mode
     "strict": ["error", "global"]
   }
