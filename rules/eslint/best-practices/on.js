@@ -19,7 +19,7 @@ module.exports = {
     // require default case in switch statements
     "default-case": "off",
     // enforces consistent newlines before or after dots
-    "dot-location": "off",
+    "dot-location": ["error", "property"],
     // encourages use of dot notation whenever possible
     "dot-notation": ["error", { "allowKeywords": true }],
     // require the use of === and !==
@@ -35,7 +35,7 @@ module.exports = {
     // disallow division operators explicitly at beginning of regular expression
     "no-div-regex": "off",
     // disallow else after a return in an if
-    "no-else-return": "off",
+    "no-else-return": "error",
     // disallow use of empty functions
     "no-empty-function": "off",
     // disallow use of empty destructuring patterns
@@ -49,15 +49,15 @@ module.exports = {
     // disallow unnecessary function binding
     "no-extra-bind": "error",
     // disallow unnecessary labels
-    "no-extra-label": "off",
+    "no-extra-label": "error",
     // disallow fallthrough of case statements
     "no-fallthrough": "error",
     // disallow the use of leading or trailing decimal points in numeric literals
-    "no-floating-decimal": "off",
+    "no-floating-decimal": "error",
     // disallow assignments to native objects or read-only global variables
     "no-global-assign": "off",
     // disallow the type conversions with shorter notations
-    "no-implicit-coercion": "off",
+    "no-implicit-coercion": ["error", { "allow": [ "!!" ] }],
     // disallow var and named functions in global scope
     "no-implicit-globals": "off",
     // disallow use of eval()-like methods
@@ -116,7 +116,7 @@ module.exports = {
     // disallow usage of expressions in statement position
     "no-unused-expressions": "error",
     // disallow unused labels
-    "no-unused-labels": "off",
+    "no-unused-labels": "error",
     // disallow unnecessary .call() and .apply()
     "no-useless-call": "error",
     // disallow unnecessary concatenation of literals or template literals
@@ -124,7 +124,7 @@ module.exports = {
     // disallow unnecessary usage of escape character
     "no-useless-escape": "off",
     // disallow redundant return statements
-    "no-useless-return": "off",
+    "no-useless-return": "error",
     // disallow use of void operator
     "no-void": "off",
     // disallow usage of configurable warning terms in comments: e.g. todo
@@ -140,7 +140,7 @@ module.exports = {
     // requires to declare all vars on top of their containing scope
     "vars-on-top": "off",
     // require immediate function invocation to be wrapped in parentheses
-    "wrap-iife": "off",
+    "wrap-iife": ["error", "inside"],
     // require or disallow Yoda conditions
     "yoda": ["error", "never"]
   }
