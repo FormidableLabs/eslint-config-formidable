@@ -2,8 +2,10 @@
 
 module.exports = {
   "rules": {
-    // disallow trailing commas in object literals
-    "comma-dangle": "off",
+    // disallow await inside of loops
+    "no-await-in-loop": "off",
+    // disallow comparing against -0
+    "no-compare-neg-zero": "off",
     // disallow assignment in conditional expressions
     "no-cond-assign": "off",
     // disallow use of console
@@ -40,20 +42,24 @@ module.exports = {
     "no-invalid-regexp": "off",
     // disallow irregular whitespace outside of strings and comments
     "no-irregular-whitespace": "off",
-    // disallow negation of the left operand of an in expression
-    "no-negated-in-lhs": "off",
     // disallow the use of object properties of the global object (Math and JSON) as functions
     "no-obj-calls": "off",
+    // disallow calling some Object.prototype methods directly on objects
+    "no-prototype-builtins": "off",
     // disallow multiple spaces in a regular expression literal
     "no-regex-spaces": "off",
     // disallow sparse arrays
     "no-sparse-arrays": "off",
+    // disallow template literal placeholder syntax in regular strings
+    "no-template-curly-in-string": "off",
     // Avoid code that looks like two expressions but is actually one
     "no-unexpected-multiline": "off",
     // disallow unreachable statements after a return, throw, continue, or break statement
     "no-unreachable": "off",
     // disallow control flow statements in finally blocks
     "no-unsafe-finally": "off",
+    // disallow negating the left operand of relational operators
+    "no-unsafe-negation": "off",
     // disallow comparisons with the value NaN
     "use-isnan": "off",
     // ensure JSDoc comments are valid

@@ -38,3 +38,4 @@ out/
 # App Files
 # --------------------
 node_modules
+yarn.lock
