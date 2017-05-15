@@ -1,3 +1,10 @@
+## 3.0.0 (2017-05-15)
+
+#### User Facing Changes
+
+* Update configurations for consistency
+* Update eslint 2.10.2 => 3.19.0 (No new rules enabled)
+
 ## 2.0.1 (2016-09-28)
 
 #### User Facing Changes

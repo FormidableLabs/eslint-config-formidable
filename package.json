@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-formidable",
   "description": "A set of default eslint configurations from formidable",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "authors": "eric.baer@formidable.com, ryan.roemer@formidable.com, kyle.cesmat@formidable.com",
   "homepage": "https://github.com/FormidableLabs/eslint-config-formidable",
   "bugs": {
