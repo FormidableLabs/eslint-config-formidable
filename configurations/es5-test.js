@@ -5,9 +5,15 @@ module.exports = {
     "formidable/configurations/es5"
   ],
   "env": {
-    "mocha": true
+    "mocha": true,
+    "phantomjs": true
+  },
+  "globals": {
+    "expect": true,
+    "sandbox": true
   },
   "rules": {
-    "max-nested-callbacks": "off"
+    "max-nested-callbacks": "off",
+    "no-unused-expressions": "off"
   }
 };

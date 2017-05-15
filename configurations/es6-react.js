@@ -3,7 +3,7 @@
 module.exports = {
   "parser": "babel-eslint",
   "extends": [
-    "formidable/configurations/es6",
+    "formidable/configurations/es6-browser",
     "formidable/rules/react/on"
   ],
   "parserOptions": {
