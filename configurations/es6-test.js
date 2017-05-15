@@ -1,12 +1,19 @@
 "use strict";
 
 module.exports = {
-  "extends": "formidable/configurations/es6",
+  "extends": [
+    "formidable/configurations/es6"
+  ],
   "env": {
     "mocha": true,
     "phantomjs": true
   },
+  "globals": {
+    "expect": true,
+    "sandbox": true
+  },
   "rules": {
-    "max-nested-callbacks": "off"
+    "max-nested-callbacks": "off",
+    "no-unused-expressions": "off"
   }
 };
