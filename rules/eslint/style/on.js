@@ -3,9 +3,9 @@
 module.exports = {
   "rules": {
     // enforce spacing inside array brackets
-    "array-bracket-spacing": "off",
+    "array-bracket-spacing": ["error", "never"],
     // disallow or enforce spaces inside of single line blocks
-    "block-spacing": "off",
+    "block-spacing": ["error", "always"],
     // enforce one true brace style
     "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
     // require camel case names
@@ -25,7 +25,7 @@ module.exports = {
     // enforce newline at the end of file, with no multiple empty lines
     "eol-last": "error",
     // require or disallow spacing between function identifiers and their invocations
-    "func-call-spacing": "off",
+    "func-call-spacing": ["error", "never"],
     // require function names to match the name of the variable or property to which they are assigned
     "func-name-matching": "off",
     // require function expressions to have a name
@@ -53,7 +53,7 @@ module.exports = {
     // enforces empty lines around comments
     "lines-around-comment": "off",
     // require or disallow newlines around directives
-    "lines-around-directive": "off",
+    "lines-around-directive": ["error", "always"],
     // specify the maximum depth that blocks can be nested
     "max-depth": ["error", 4],
     // specify the maximum length of a line in your program
@@ -117,29 +117,29 @@ module.exports = {
     // disallow dangling underscores in identifiers
     "no-underscore-dangle": "off",
     // disallow the use of Boolean literals in conditional expressions
-    "no-unneeded-ternary": "off",
+    "no-unneeded-ternary": "error",
     // disallow whitespace before properties
-    "no-whitespace-before-property": "off",
+    "no-whitespace-before-property": "error",
     // enforce the location of single-line statements
-    "nonblock-statement-body-position": "off",
+    "nonblock-statement-body-position": ["error", "below"],
     // enforce consistent line breaks inside braces
     "object-curly-newline": "off",
     // require or disallow padding inside curly braces
     "object-curly-spacing": ["error", "always"],
     // enforce placing object properties on separate lines
-    "object-property-newline": "off",
+    "object-property-newline": "error",
     // allow just one var statement per function
     "one-var": ["error", "never"],
     // require or disallow an newline around variable declarations
-    "one-var-declaration-per-line": "off",
+    "one-var-declaration-per-line": ["error", "initializations"],
     // require assignment operator shorthand where possible or prohibit it entirely
     "operator-assignment": ["error", "always"],
     // enforce operators to be placed before or after line breaks
-    "operator-linebreak": "off",
+    "operator-linebreak": ["error", "before"],
     // enforce padding within blocks
-    "padded-blocks": "off",
+    "padded-blocks": ["error", "never"],
     // require quotes around object literal property names
-    "quote-props": "off",
+    "quote-props": ["error", "as-needed", { "keywords": true, "numbers": true }],
     // specify whether double or single quotes should be used
     "quotes": ["error", "double"],
     // Require JSDoc comment
@@ -163,8 +163,12 @@ module.exports = {
     // Require or disallow spaces before/after unary operators
     "space-unary-ops": ["error", { "words": true, "nonwords": false }],
     // require or disallow a space immediately following the // or /* in a comment
-    "spaced-comment": "off",
+    "spaced-comment": ["error", "always", { "exceptions": ["-", "=", "*"] }],
+    // require or disallow spacing between template tags and their literals
+    "template-tag-spacing": ["error", "always"],
+    // require or disallow Unicode byte order mark (BOM)
+    "unicode-bom": "off",
     // require regex literals to be wrapped in parentheses
-    "wrap-regex": "off"
+    "wrap-regex": "error"
   }
 };
