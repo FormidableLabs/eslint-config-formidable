@@ -10,12 +10,12 @@ module.exports = {
     "formidable/rules/eslint/style/off",
     "formidable/rules/eslint/variables/off"
   ],
-  "parserOptions": {
-    "ecmaVersion": 5,
-    "sourceType": "script",
-    "ecmaFeatures": {}
+  parserOptions: {
+    ecmaVersion: 5,
+    sourceType: "script",
+    ecmaFeatures: {}
   },
-  "env": {},
-  "globals": {},
-  "rules": {}
+  env: {},
+  globals: {},
+  rules: {}
 };

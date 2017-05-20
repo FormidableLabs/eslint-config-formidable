@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = {
-  "rules": {
+  rules: {
     // enforce spacing inside array brackets
     "array-bracket-spacing": "off",
     // disallow or enforce spaces inside of single line blocks
@@ -9,7 +9,7 @@ module.exports = {
     // enforce one true brace style
     "brace-style": "off",
     // require camel case names
-    "camelcase": "off",
+    camelcase: "off",
     // enforce or disallow capitalization of the first letter of a comment
     "capitalized-comments": "off",
     // disallow trailing commas in object literals
@@ -39,7 +39,7 @@ module.exports = {
     // require identifiers to match the provided regular expression
     "id-match": "off",
     // this option sets a specific tab width for your code
-    "indent": "off",
+    indent: "off",
     // specify whether double or single quotes should be used in JSX attributes
     "jsx-quotes": "off",
     // enforces spacing between keys and values in object literal properties
@@ -141,11 +141,11 @@ module.exports = {
     // require quotes around object literal property names
     "quote-props": "off",
     // specify whether double or single quotes should be used
-    "quotes": "off",
+    quotes: "off",
     // Require JSDoc comment
     "require-jsdoc": "off",
     // require or disallow use of semicolons instead of ASI
-    "semi": "off",
+    semi: "off",
     // enforce spacing before and after semicolons
     "semi-spacing": "off",
     // require object keys to be sorted

@@ -19,6 +19,7 @@
   },
   "main": "configurations/es6.js",
   "scripts": {
+    "fix": "eslint configurations rules --fix",
     "test": "eslint configurations rules"
   },
   "engines": {

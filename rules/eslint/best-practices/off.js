@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = {
-  "rules": {
+  rules: {
     // Enforces getter/setter pairs in objects
     "accessor-pairs": "off",
     // enforce return statements in callbacks of array’s methods
@@ -11,11 +11,11 @@ module.exports = {
     // enforce that class methods utilize this
     "class-methods-use-this": "off",
     // specify the maximum cyclomatic complexity allowed in a program
-    "complexity": "off",
+    complexity: "off",
     // require return statements to either always or never specify values
     "consistent-return": "off",
     // specify curly brace conventions for all control statements
-    "curly": "off",
+    curly: "off",
     // require default case in switch statements
     "default-case": "off",
     // enforces consistent newlines before or after dots
@@ -23,7 +23,7 @@ module.exports = {
     // encourages use of dot notation whenever possible
     "dot-notation": "off",
     // require the use of === and !==
-    "eqeqeq": "off",
+    eqeqeq: "off",
     // make sure for-in loops have an if statement
     "guard-for-in": "off",
     // disallow the use of alert, confirm, and prompt
@@ -134,7 +134,7 @@ module.exports = {
     // require using Error objects as Promise rejection reasons
     "prefer-promise-reject-errors": "off",
     // require use of the second argument for parseInt()
-    "radix": "off",
+    radix: "off",
     // disallow async functions which have no await expression
     "require-await": "off",
     // requires to declare all vars on top of their containing scope
@@ -142,6 +142,6 @@ module.exports = {
     // require immediate function invocation to be wrapped in parentheses
     "wrap-iife": "off",
     // require or disallow Yoda conditions
-    "yoda": "off"
+    yoda: "off"
   }
 };

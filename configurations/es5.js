@@ -12,17 +12,17 @@ module.exports = {
     "formidable/rules/filenames/on",
     "formidable/rules/import/on"
   ],
-  "parserOptions": {
-    "ecmaVersion": 5,
-    "sourceType": "script",
-    "ecmaFeatures": {}
+  parserOptions: {
+    ecmaVersion: 5,
+    sourceType: "script",
+    ecmaFeatures: {}
   },
-  "env": {
-    "amd": true
+  env: {
+    amd: true
   },
-  "globals": {
-    "module": false,
-    "process": false
+  globals: {
+    module: false,
+    process: false
   },
-  "rules": {}
+  rules: {}
 };
