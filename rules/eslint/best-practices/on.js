@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = {
-  "rules": {
+  rules: {
     // Enforces getter/setter pairs in objects
     "accessor-pairs": "off",
     // enforce return statements in callbacks of array’s methods
@@ -11,19 +11,19 @@ module.exports = {
     // enforce that class methods utilize this
     "class-methods-use-this": "off",
     // specify the maximum cyclomatic complexity allowed in a program
-    "complexity": ["error", 11],
+    complexity: ["error", 11],
     // require return statements to either always or never specify values
     "consistent-return": "error",
     // specify curly brace conventions for all control statements
-    "curly": ["error", "all"],
+    curly: ["error", "all"],
     // require default case in switch statements
     "default-case": "off",
     // enforces consistent newlines before or after dots
     "dot-location": ["error", "property"],
     // encourages use of dot notation whenever possible
-    "dot-notation": ["error", { "allowKeywords": true }],
+    "dot-notation": ["error", { allowKeywords: true }],
     // require the use of === and !==
-    "eqeqeq": "error",
+    eqeqeq: "error",
     // make sure for-in loops have an if statement
     "guard-for-in": "off",
     // disallow the use of alert, confirm, and prompt
@@ -57,7 +57,7 @@ module.exports = {
     // disallow assignments to native objects or read-only global variables
     "no-global-assign": "off",
     // disallow the type conversions with shorter notations
-    "no-implicit-coercion": ["error", { "allow": [ "!!" ] }],
+    "no-implicit-coercion": ["error", { allow: ["!!"] }],
     // disallow var and named functions in global scope
     "no-implicit-globals": "off",
     // disallow use of eval()-like methods
@@ -67,13 +67,14 @@ module.exports = {
     // disallow usage of __iterator__ property
     "no-iterator": "error",
     // disallow use of labeled statements
-    "no-labels": ["error", { "allowLoop": true, "allowSwitch": true }],
+    "no-labels": ["error", { allowLoop: true,
+      allowSwitch: true }],
     // disallow unnecessary nested blocks
     "no-lone-blocks": "error",
     // disallow creation of functions within loops
     "no-loop-func": "error",
     // disallow the use of magic numbers
-    "no-magic-numbers": ["error", { "ignore": [-1, 0, 1] }],
+    "no-magic-numbers": ["error", { ignore: [-1, 0, 1] }],
     // disallow use of multiple spaces
     "no-multi-spaces": "error",
     // disallow use of multiline strings
@@ -134,7 +135,7 @@ module.exports = {
     // require using Error objects as Promise rejection reasons
     "prefer-promise-reject-errors": "off",
     // require use of the second argument for parseInt()
-    "radix": "off",
+    radix: "off",
     // disallow async functions which have no await expression
     "require-await": "off",
     // requires to declare all vars on top of their containing scope
@@ -142,6 +143,6 @@ module.exports = {
     // require immediate function invocation to be wrapped in parentheses
     "wrap-iife": ["error", "inside"],
     // require or disallow Yoda conditions
-    "yoda": ["error", "never"]
+    yoda: ["error", "never"]
   }
 };

@@ -4,15 +4,15 @@ module.exports = {
   "extends": [
     "formidable/configurations/es6-react"
   ],
-  "env": {
-    "mocha": true,
-    "phantomjs": true
+  env: {
+    mocha: true,
+    phantomjs: true
   },
-  "globals": {
-    "expect": true,
-    "sandbox": true
+  globals: {
+    expect: true,
+    sandbox: true
   },
-  "rules": {
+  rules: {
     "max-nested-callbacks": "off",
     "no-unused-expressions": "off"
   }

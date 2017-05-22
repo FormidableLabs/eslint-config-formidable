@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = {
-  "rules": {
+  rules: {
     // enforce or disallow variable initializations at definition
     "init-declarations": "off",
     // disallow the catch clause parameter name being the same as a variable in the outer scope

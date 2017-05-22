@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = {
-  "rules": {
+  rules: {
     // disallow await inside of loops
     "no-await-in-loop": "off",
     // disallow comparing against -0

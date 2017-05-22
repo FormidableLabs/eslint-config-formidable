@@ -1,10 +1,10 @@
 "use strict";
 
 module.exports = {
-  "plugins": [
+  plugins: [
     "filenames"
   ],
-  "rules": {
+  rules: {
     // Enforce dash-cased filenames
     // `true` here means "don't enforce if `export default` exists in file"
     "filenames/match-regex": ["error", "^[a-z0-9\\-\\.]+$", false],
