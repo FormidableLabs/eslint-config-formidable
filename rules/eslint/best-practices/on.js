@@ -13,7 +13,7 @@ module.exports = {
     // specify the maximum cyclomatic complexity allowed in a program
     complexity: ["error", 11],
     // require return statements to either always or never specify values
-    "consistent-return": "error",
+    "consistent-return": ["error", { treatUndefinedAsUnspecified: true }],
     // specify curly brace conventions for all control statements
     curly: ["error", "all"],
     // require default case in switch statements

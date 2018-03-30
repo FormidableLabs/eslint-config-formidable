@@ -6,7 +6,7 @@ module.exports = {
   ],
   rules: {
     // Ensure imports point to a file/module that can be resolved
-    "import/no-unresolved": "error",
+    "import/no-unresolved": ["error", { commonjs: true }],
     // Ensure named imports correspond to a named export in the remote file
     "import/named": "off",
     // Ensure a default export is present, given a default import
