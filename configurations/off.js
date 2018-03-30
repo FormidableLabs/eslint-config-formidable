@@ -8,7 +8,10 @@ module.exports = {
     "formidable/rules/eslint/node/off",
     "formidable/rules/eslint/strict/off",
     "formidable/rules/eslint/style/off",
-    "formidable/rules/eslint/variables/off"
+    "formidable/rules/eslint/variables/off",
+    "formidable/rules/filenames/off",
+    "formidable/rules/import/off",
+    "formidable/rules/promise/off"
   ],
   parserOptions: {
     ecmaVersion: 5,
