@@ -4,14 +4,20 @@
 [![Build Status](https://travis-ci.org/FormidableLabs/eslint-config-formidable.svg?branch=master)](https://travis-ci.org/FormidableLabs/eslint-config-formidable)
 [![npm](https://img.shields.io/npm/v/eslint-config-formidable.svg?maxAge=2592000)](https://www.npmjs.com/package/eslint-config-formidable)
 
-This project is based on [eslint-config-walmart](https://github.com/walmartlabs/eslint-config-walmart). It is `eslint@2+`-compatible and maintained by Formidable.
+This project is based on [eslint-config-walmart](https://github.com/walmartlabs/eslint-config-walmart) and maintained by Formidable. It supports ESLint 2, 3, and 4.
 
 ## Installation
 
-Install this config package and ESLint:
+Install ESLint and this config package:
 
 ```bash
-$ npm install --save-dev eslint@2.10.2 eslint-config-formidable
+$ npm install --save-dev eslint eslint-config-formidable
+```
+
+Depending on the [configutation](#usage) you choose, you'll most likely need one or more [additional eslint plugins](#dependencies) installed:
+
+```bash
+$ npm install --save-dev eslint eslint-config-<one> eslint-config-<two>
 ```
 
 ## Usage
@@ -36,13 +42,14 @@ This package includes the following complete and ready to use configurations:
 ###### Dependencies
 
 - Any config (`formidable/configurations/<suffix>`)
-  - [eslint-plugin-filenames](https://github.com/selaux/eslint-plugin-filenames)
+  - [eslint-plugin-filenames](https://www.npmjs.com/package/eslint-plugin-filenames)
   - [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
+  - [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise)
 - Any React config (`<prefix>-react`)
   - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
-  - [babel-eslint](https://github.com/babel/babel-eslint)
+  - [babel-eslint](https://www.npmjs.com/package/babel-eslint)
 - Any ES-next config (`es6-<suffix>`)
-  - [babel-eslint](https://github.com/babel/babel-eslint)
+  - [babel-eslint](https://www.npmjs.com/package/babel-eslint)
 
 To consume and extend a config in ESLint just add the extends attribute to your `.eslintrc`. For
 more details about how shareable configs work, see the
@@ -87,6 +94,7 @@ Due to an issue with ESLint, config extension cannot be called from a globally i
 - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) 6.0.0
 - [eslint-plugin-filenames](https://www.npmjs.com/package/eslint-plugin-filenames) 1.1.0
 - [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import) 1.13.0
+- [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise) 3.7.0
 
 ## Contributing
 
