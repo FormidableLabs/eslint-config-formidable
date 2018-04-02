@@ -1,3 +1,12 @@
+## 4.0.0 (2018-04-02)
+
+#### User Facing Changes
+
+* add promise rules
+* add Jest to test configurations
+* add options to consistent-return and import/no-unresolved
+* fix bug in configurations/off.js
+
 ## 3.0.0 (2017-05-15)
 
 #### User Facing Changes
