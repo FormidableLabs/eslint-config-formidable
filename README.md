@@ -17,7 +17,7 @@ $ npm install --save-dev eslint eslint-config-formidable
 Depending on the [configutation](#usage) you choose, you'll most likely need one or more [additional eslint plugins](#dependencies) installed:
 
 ```bash
-$ npm install --save-dev eslint eslint-config-<one> eslint-config-<two>
+$ npm install --save-dev eslint-config-<one> eslint-config-<two>
 ```
 
 ## Usage
