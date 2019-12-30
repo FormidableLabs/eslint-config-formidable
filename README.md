@@ -1,7 +1,7 @@
 # eslint-config-formidable
 
 #### A composable set of ESLint configurations.
-[![Build Status](https://travis-ci.org/FormidableLabs/eslint-config-formidable.svg?branch=master)](https://travis-ci.org/FormidableLabs/eslint-config-formidable)
+[![Build Status](https://travis-ci.com/FormidableLabs/eslint-config-formidable.svg?branch=master)](https://travis-ci.com/FormidableLabs/eslint-config-formidable)
 [![npm](https://img.shields.io/npm/v/eslint-config-formidable.svg?maxAge=2592000)](https://www.npmjs.com/package/eslint-config-formidable)
 
 This project is based on [eslint-config-walmart](https://github.com/walmartlabs/eslint-config-walmart) and maintained by Formidable. It supports ESLint 2, 3, and 4.
